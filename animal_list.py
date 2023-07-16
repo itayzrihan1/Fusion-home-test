@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-# Send a GET request to the Wikipedia page
+# Send a GET request 
 url = "https://en.wikipedia.org/wiki/List_of_animal_names"
 response = requests.get(url)
 
